@@ -48,7 +48,7 @@ section{
     border-radius: 1rem;
     text-align: center;
     width: 90%;
-    height: 30vh;
+    min-height: 30vh;
     display: block;
     margin: auto;
 
@@ -58,7 +58,7 @@ section{
     color: black;
     padding: 2rem 2rem;
     width: 90%;
-    height: 30vh;
+    min-height: 30vh;
     display: block;
     margin: auto;
 }
@@ -122,7 +122,7 @@ button:hover{
     border: 1px solid blue;
 }
 .footer-hover{
-    width: 30%;
+    min-width: 30%;
     display: inline-block;
     margin: auto;
     border-radius: 1rem;
